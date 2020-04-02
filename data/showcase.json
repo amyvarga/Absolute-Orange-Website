@@ -1,0 +1,363 @@
+{
+  "showcases": [
+    {
+      "owner": "Amy",
+      "title": "Deltatre",
+      "id": "9",
+      "deliverable": "Website",
+      "date": "Fri, 2nd September  2016",
+      "languages": [
+        "CSS 1, 2 and 3",
+        "HTML 5"
+      ],
+      "software": [
+        "Eclipse IDE"
+      ],
+      "frameworks": [
+        "LESS",
+        "Underscore",
+        "Grunt",
+        "Angular 1.0"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "Channel 4 Paralympics",
+          "url": "https://paralympics.channel4.com/"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "Channel 4",
+          "image_url": "channel-4.jpg"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "AkzoNobel",
+      "id": "8",
+      "deliverable": "Global e-commerce consumer facing website",
+      "date": "Fri, 12th June  2015",
+      "languages": [
+        "CSS 1, 2 and 3",
+        "Grunt",
+        "OO Javascript",
+        "HTML 5"
+      ],
+      "software": [
+        "Adobe Illustrator",
+        "Git versioning system",
+        "Jira"
+      ],
+      "frameworks": [
+        "jQuery",
+        "Modernizr",
+        "SASS",
+        "Knockout",
+        "Jasmine",
+        "Underscore"
+      ],
+      "skills": [
+        "lead development,front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "Dulux England",
+          "url": "https:\/\/www.dulux.co.uk\/en"
+        },
+        {
+          "name": "Dulux France",
+          "url": "https://www.duluxvalentine.com"
+        },
+        {
+          "name": "Dulux India",
+          "url": "https:\/\/www.dulux.in\/en"
+        },
+        {
+          "name": "Dulux Germany",
+          "url": "https:\/\/www.dulux.de\/de"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "Dulux by AkzoNobel",
+          "image_url": "dulux.jpg"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "Immediate Media Co",
+      "id": "7",
+      "deliverable": "Responsive templates that meet design \/ UX requirements whilst maintaining compatibility with existing delivery platform",
+      "date": "Fri, 28th February  2014",
+      "languages": [
+        "CSS 1, 2 and 3",
+        "OO Javascript",
+        "XHTML"
+      ],
+      "software": [
+        "Jira",
+        "SVN versioning system",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        ".NET Visual Studio"
+      ],
+      "frameworks": [
+        "jQuery",
+        "Modernizr",
+        "SASS",
+        "Enquire",
+        "Bootstrap",
+        "Unveil",
+        "Flexslider"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "Runners World",
+          "url": "http:\/\/www.runnersworld.co.uk"
+        },
+        {
+          "name": "Made for mums",
+          "url": "http:\/\/www.madeformums.co.uk"
+        },
+        {
+          "name": "You and your wedding",
+          "url": "http:\/\/www.youandyourwedding.co.uk"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "Immediate Media Co",
+          "image_url": "immediate.jpg"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "News International",
+      "id": "6",
+      "deliverable": "The Sun+, The Times and The Sunday Times acquisition pages",
+      "date": "Fri, 30th August  2013",
+      "languages": [
+        "CSS 1, 2 and 3",
+        "OO Javascript",
+        "HTML 5"
+      ],
+      "software": [
+        "Eclipse IDE",
+        "Adobe Photoshop",
+        "Jira"
+      ],
+      "frameworks": [
+        "jQuery",
+        "Backbone",
+        "Modernizr",
+        "LESS"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "The Sunday Times subscription",
+          "url": "https:\/\/join.thesundaytimes.co.uk"
+        },
+        {
+          "name": "The Sun subscription",
+          "url": "https:\/\/join.thesun.co.uk"
+        },
+        {
+          "name": "The Times subscription",
+          "url": "https:\/\/join.thetimes.co.uk"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "News International",
+          "image_url": "news_int_logos.jpg"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "Three",
+      "id": "5",
+      "deliverable": "Mobile website delivering Three video-ondemand service",
+      "date": "Fri, 1st June  2012",
+      "languages": [
+        "HTML 5",
+        "REST API",
+        "CSS 1, 2 and 3",
+        "JSTL",
+        "Apache Struts"
+      ],
+      "software": [
+        "Adobe Edge",
+        "Google analytics",
+        "Eclipse IDE",
+        "Jira",
+        "WURFL data repository",
+        "Adobe Photoshop",
+        "SVN versioning system",
+        "Socketbug"
+      ],
+      "frameworks": [
+        "jQuery",
+        "LESS"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "Three Ondemand",
+          "url": "http:\/\/mobile.three.co.uk\/935a\/portal-web\/whats-hot"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "Three",
+          "image_url": "three.png"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "Virgin Shorts",
+      "id": "4",
+      "deliverable": "Website showcasing short films for the Virgin Shorts competition",
+      "date": "Tue, 1st June  2010",
+      "languages": [
+        "PHP"
+      ],
+      "software": [
+        "SVN versioning system",
+        "Eclipse IDE"
+      ],
+      "frameworks": [
+        "jQuery",
+        "Codeigniter"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "Virgin Media Shorts",
+          "url": "http:\/\/www.virginmediashorts.co.uk"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "Virgin Media",
+          "image_url": "Virgin_Media.png"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "Clipper Teas",
+      "id": "3",
+      "deliverable": "Clipper Teas shopping website",
+      "date": "Thu, 23rd December  2010",
+      "languages": [
+        "XHTML",
+        "CSS 1, 2 and 3"
+      ],
+      "software": [
+        "Magento e-commerce software and platform"
+      ],
+      "frameworks": [
+        "jQuery"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "Clipper Teas",
+          "url": "http:\/\/shop.clipper-teas.com\/"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "Clipper Teas",
+          "image_url": "clipper_tea.jpg"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "UK Web Archive",
+      "id": "2",
+      "deliverable": "Redesign on UK Web Archive website",
+      "date": "Tue, 15th December  2009",
+      "languages": [
+        "XHTML",
+        "CSS 1, 2 and 3",
+        "JSTL"
+      ],
+      "software": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Eclipse IDE"
+      ],
+      "frameworks": [
+        "jQuery"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "UK Web Archive",
+          "url": "http:\/\/www.webarchive.org.uk\/ukwa\/"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "British Library",
+          "image_url": "british-library.gif"
+        }
+      ]
+    },
+    {
+      "owner": "Amy",
+      "title": "TJ Hughes",
+      "id": "1",
+      "deliverable": "TJ Hughes shopping website",
+      "date": "Thu, 30th July  2009",
+      "languages": [
+        "JSTL",
+        "XHTML",
+        "CSS 1, 2 and 3"
+      ],
+      "software": [],
+      "frameworks": [
+        "jQuery"
+      ],
+      "skills": [
+        "front end web development"
+      ],
+      "reLatedLinks": [
+        {
+          "name": "TJ Hughes",
+          "url": "http:\/\/www.tjhughes.co.uk\/"
+        }
+      ],
+      "logos": [
+        {
+          "image_alt": "TJ Hughes",
+          "image_url": "T_J_Hughes.png"
+        }
+      ]
+    }
+  ]
+}
