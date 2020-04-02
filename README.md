@@ -1,2 +1,8 @@
 # Absolute-Orange-Website
-React Absolute Orange website 
+
+## Technologies
+
+React
+NextJS
+Styled components
+JSON API
