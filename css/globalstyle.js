@@ -1,20 +1,20 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 import variables from "./variables";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: "gothic";
-    src: url(/fonts/Gothic/Gothic.wof);
-    src: url(/fonts/Gothic/Gothic.eot);
-    src: url(/fonts/Gothic/Gothic.svg);
-    src: url(/fonts/Gothic/Gothic.ttf);
+    font-family: "Gothic";
+    src: url(/fonts/Gothic/Regular/Gothic.wof);
+    src: url(/fonts/Gothic/Regular/Gothic.eot);
+    src: url(/fonts/Gothic/Regular/Gothic.svg);
+    src: url(/fonts/Gothic/Regular/Gothic.ttf);
   }
   @font-face {
-    font-family: "gothicBold";
-    src: url(/fonts/GothicB/GothicB.eot);
-    src: url(/fonts/GothicB/GothicB.svg);
-    src: url(/fonts/GothicB/GothicB.ttf);
-    src: url(/fonts/GothicB/GothicB.woff);
+    font-family: "GothicBold";
+    src: url(/fonts/Gothic/Bold/GothicB.eot);
+    src: url(/fonts/Gothic/Bold/GothicB.svg);
+    src: url(/fonts/Gothic/Bold/GothicB.ttf);
+    src: url(/fonts/Gothic/Bold/GothicB.woff);
   }
   @font-face {
     font-family: "helveticaRoman";
@@ -24,19 +24,30 @@ const GlobalStyle = createGlobalStyle`
     src: url("/fonts/Helvetica55Roman/Helvetica55Roman.woff");
   }
   @font-face {
-    font-family: "Ubuntu";
-    src: url("/fonts/UbuntuBoldItalics/UbuntuBoldItalics.ttf");
+    font-family: "QuicksandRegular";
+    src: url("/fonts/Quicksand/Regular/quicksand-regular-webfont.woff");
+    src: url("/fonts/Quicksand/Regular/quicksand-regular-webfont.woff2");
+  }
+  @font-face {
+    font-family: "QuicksandLight";
+    src: url("/fonts/Quicksand/Light/quicksand-light-webfont.woff");
+    src: url("/fonts/Quicksand/Light/quicksand-light-webfont.woff2");
+  }
+  @font-face {
+    font-family: "QuicksandBold";
+    src: url("/fonts/Quicksand/Bold/quicksand-bold-webfont.woff");
+    src: url("/fonts/Quicksand/Bold/quicksand-bold-webfont.woff2");
   }
   html,
   body {
     padding: 0;
     margin: 0;
-    font-family: "helveticaRoman", sans-serif;
+    font-family: "QuicksandLight", sans-serif;
     color: ${variables.colors.grey};
     font-size: 16px;
   }
-  header {
-    padding: 2em 0;
+  strong {
+    font-family: "QuicksandBold", sans-serif;
   }
   a {
     color: inherit;

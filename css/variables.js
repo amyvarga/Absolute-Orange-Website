@@ -10,8 +10,11 @@ const variables = {
   },
   colors: {
     orange: "#ff7c27",
-    blue: "#19a388",
-    grey: "#535353"
+    darkBlue: "#1D3557",
+    medBlue: "#457B9D",
+    lightBlue: "#A8DADC",
+    grey: "#535353",
+    cream: "#F1FAEE"
   }
 };
 

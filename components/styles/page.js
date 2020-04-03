@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HEADER = styled.header`
-  padding: 2em 0;
+  padding: ${props => (props.major ? "2em 0" : "0")};
 `;
 
 export const FOOTER = styled.footer`
