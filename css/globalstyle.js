@@ -52,6 +52,8 @@ const GlobalStyle = createGlobalStyle`
   a {
     color: inherit;
     text-decoration: none;
+    font-size: 16px;
+    color: ${variables.colors.grey};
   }
   * {
     box-sizing: border-box;
