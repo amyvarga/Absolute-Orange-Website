@@ -1,47 +1,29 @@
-import useTabs from "../hooks/useTabs";
-import {
-  LI,
-  HEADER,
-  LEFT,
-  RIGHT,
-  MAIN,
-  TITLE,
-  TABS,
-  TAB,
-  NAV,
-  MENULI,
-  TABCONTAINER,
-} from "./styles/showcase";
+import { LI, HEADER, Left, Right, MAIN } from "./styles/showcase";
+import { Table, Theader, Tbody } from "./styles/table";
+import { Showcaseheading } from "./styles/headings";
 
 const ShowcaseItem = () => {
-  const { tabs, selectTab } = useTabs(6);
   return (
     <>
       <LI>
         <HEADER>
-          <TITLE>
-            <h2>
-              <strong>Deliverable: </strong>Global e-commerce consumer website
-            </h2>
-          </TITLE>
-
-          <LEFT>
-            <div className="logo">
-              <img src="images/showcaseLogos/dulux-new.jpg" alt="dulux" />
-            </div>
-          </LEFT>
-          <RIGHT>
+          <Left>
+            <Showcaseheading as="h2">
+              Global e-commerce consumer website
+            </Showcaseheading>
             <ul>
               <li>
                 <a href="https://www.dulux.co.uk" target="_blank">
                   https://www.dulux.co.uk
                 </a>
               </li>
+
               <li>
                 <a href="https://www.dulux.com/fr" target="_blank">
                   https://www.duluxvalentine.com
                 </a>
               </li>
+
               <li>
                 <a href="https://www.dulux.in/en" target="_blank">
                   https://www.dulux.in/en
@@ -53,77 +35,119 @@ const ShowcaseItem = () => {
                 </a>
               </li>
             </ul>
-          </RIGHT>
+          </Left>
+          <Right>
+            <img src="images/showcaseLogos/dulux-new.jpg" alt="dulux" />
+          </Right>
         </HEADER>
         <MAIN>
-          <TABS>
-            <NAV>
-              <ol>
-                <MENULI onClick={() => selectTab(0)} selected={tabs[0]}>
-                  <h4 selected>Front end</h4>
-                </MENULI>
-                <MENULI onClick={() => selectTab(1)} selected={tabs[1]}>
+          <Table>
+            <Theader>
+              <tr>
+                <td>
+                  <h4>Front end</h4>
+                </td>
+              </tr>
+            </Theader>
+            <Tbody>
+              <tr>
+                <td>CSS 1, 2, 3</td>
+              </tr>
+              <tr>
+                <td>Sass</td>
+              </tr>
+              <tr>
+                <td>HTML5</td>
+              </tr>
+              <tr>
+                <td>OO Javascript</td>
+              </tr>
+              <tr>
+                <td>jQuery</td>
+              </tr>
+              <tr>
+                <td>Moderniser</td>
+              </tr>
+              <tr>
+                <td>Knockout</td>
+              </tr>
+              <tr>
+                <td>Underscore</td>
+              </tr>
+            </Tbody>
+          </Table>
+
+          <Table>
+            <Theader>
+              <tr>
+                <td>
                   <h4>Back end</h4>
-                </MENULI>
-                <MENULI onClick={() => selectTab(2)} selected={tabs[2]}>
+                </td>
+              </tr>
+            </Theader>
+            <Tbody>
+              <tr>
+                <td>Grunt</td>
+              </tr>
+              <tr>
+                <td>Jasmine</td>
+              </tr>
+            </Tbody>
+          </Table>
+          <Table>
+            <Theader>
+              <tr>
+                <td>
                   <h4>Database</h4>
-                </MENULI>
-                <MENULI onClick={() => selectTab(3)} selected={tabs[3]}>
-                  <h4>Server</h4>
-                </MENULI>
-                <MENULI onClick={() => selectTab(4)} selected={tabs[4]}>
+                </td>
+              </tr>
+            </Theader>
+            <Tbody>
+              <tr>
+                <td>Restful API</td>
+              </tr>
+              <tr>
+                <td>Mongodb</td>
+              </tr>
+            </Tbody>
+          </Table>
+          <Table>
+            <Theader>
+              <tr>
+                <td>
                   <h4>Provision & management</h4>
-                </MENULI>
-                <MENULI onClick={() => selectTab(5)} selected={tabs[5]}>
+                </td>
+              </tr>
+            </Theader>
+            <Tbody>
+              <tr>
+                <td>Git</td>
+              </tr>
+              <tr>
+                <td>Continous integration</td>
+              </tr>
+              <tr>
+                <td>Jira</td>
+              </tr>
+              <tr>
+                <td>Agile Scrum</td>
+              </tr>
+            </Tbody>
+          </Table>
+          <Table>
+            <Theader>
+              <tr>
+                <td>
                   <h4>Design</h4>
-                </MENULI>
-              </ol>
-            </NAV>
-            <TABCONTAINER>
-              <TAB selected={tabs[0]} order={6}>
-                <ul>
-                  <li>CSS 1, 2, 3</li>
-                  <li>Sass</li>
-                  <li>HTML5</li>
-                  <li>OO Javascript</li>
-                  <li>jQuery</li>
-                  <li>Moderniser</li>
-                  <li>Knockout</li>
-                  <li>Underscore</li>
-                </ul>
-              </TAB>
-              <TAB selected={tabs[1]} order={5}>
-                <ul>
-                  <li>Grunt</li>
-                  <li>Jasmine</li>
-                </ul>
-              </TAB>
-              <TAB selected={tabs[2]} order={4}>
-                <ul>
-                  <li>Restful API</li>
-                  <li>Mongodb</li>
-                </ul>
-              </TAB>
-              <TAB selected={tabs[3]} order={3}>
-                <ul>
-                  <li></li>
-                </ul>
-              </TAB>
-              <TAB selected={tabs[4]} order={2}>
-                <ul>
-                  <li>Git</li>
-                  <li>Continous integration</li>
-                  <li>Jira</li>
-                  <li>Agile Scrum</li>
-                </ul>
-              </TAB>
-              <TAB selected={tabs[5]} order={1}>
-                <ul>
-                  <li>Adobe Illustrator</li>
-                </ul>
-              </TAB>
-            </TABCONTAINER>
-          </TABS>
+                </td>
+              </tr>
+            </Theader>
+            <Tbody>
+              <tr>
+                <td>Adobe Illustrator</td>
+              </tr>
+            </Tbody>
+          </Table>
         </MAIN>
       </LI>
     </>

@@ -4,13 +4,18 @@ import variables from "../../css/variables";
 export const OL = styled.ol`
   list-style-type: none;
   padding-left: 0;
-  width: 70%;
+  @media (min-width: ${variables.breakpoints.lg}px) {
+    width: 70%;
+  }
+  @media (max-width: ${variables.breakpoints.lg}px) {
+    width: 90%;
+  }
   margin: 0 auto;
 `;
 export const LI = styled.li`
   padding: 10px;
-  border: solid 1px #beb9ba;
-  border-radius: 5px 5px 5px 5px;
+
+  border: solid 1px lightgrey;
   background-color: #fff;
 `;
 
@@ -18,33 +23,12 @@ export const HEADER = styled.header`
   display: flex;
   flex-flow: wrap;
   padding: 0;
-  margin-bottom: 30px;
-`;
-
-export const TITLE = styled.title`
-  flex: 0 0 100%;
-  display: flex;
   margin-bottom: 10px;
-  h2 {
-    font-size: 1em;
-    margin: 0;
-  }
-  strong {
-    text-transform: uppercase;
-  }
 `;
 
-export const LEFT = styled.div`
-  width: 50%;
-  .logo img {
-    width: 50%;
-    float: left;
-  }
-`;
+export const Left = styled.div`
+  width: 75%;
 
-export const RIGHT = styled.div`
-  width: 50%;
-  text-align: right;
   ul {
     padding: 0;
   }
@@ -60,62 +44,25 @@ export const RIGHT = styled.div`
   }
 `;
 
-export const MAIN = styled.main`
-  strong {
-    font-weight: bold;
-  }
-`;
-
-export const TABS = styled.div`
-  background-color: #eef3f6;
-  box-shadow: 8px 10px 14px -10px rgba(194, 199, 204, 1);
-`;
-
-export const TAB = styled.div`
-  flex-direction: column;
-  width: 100%;
-  display: ${(props) => (props.selected ? "flex" : "none")};
-  z-index: ${(props) => (props.selected ? 10 : props.order)};
-  position: absolute;
-  background-color: #eef3f6;
-
-  ul {
-    list-style-type: none;
-    padding: 10px;
+export const Right = styled.div`
+  width: 25%;
+  img {
     width: 100%;
   }
 `;
 
-export const TABCONTAINER = styled.div`
-  position: relative;
-  display: flex;
-  height: 173px;
-  border: 1px solid ${variables.colors.lightBlue};
-  border-top: none;
-`;
-
-export const NAV = styled.nav`
-  width: 100%;
-  h4 {
-    margin: 10px;
+export const MAIN = styled.main`
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  @media (max-width: ${variables.breakpoints.lg}px) {
+    grid-template-columns: repeat(5, 1fr);
   }
-  ol {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
+  @media (min-width: ${variables.breakpoints.md}px) {
+    grid-template-columns: repeat(4, 1fr);
   }
-`;
-
-export const MENULI = styled.li`
-  border-top: ${(props) =>
-    props.selected ? `2px solid ${variables.colors.medBlue}` : "none"};
-  border-bottom: ${(props) =>
-    props.selected ? "none" : `1px solid ${variables.colors.lightBlue}`};
-  border-right: ${(props) =>
-    props.selected ? `1px solid ${variables.colors.lightBlue}` : "none"};
-  border-left: ${(props) =>
-    props.selected ? `1px solid ${variables.colors.lightBlue}` : "none"};
-  @media (min-width: ${variables.breakpoints.xxl}px) {
-    width: 16.5%;
+  @media (min-width: ${variables.breakpoints.xs}px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;

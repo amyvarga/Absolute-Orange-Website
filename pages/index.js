@@ -1,11 +1,16 @@
 import { useReducer, createContext } from "react";
 import reducer, { initialState } from "../state/reducer";
 import Head from "next/head";
-import Heading1 from "../components/Heading1";
+import { Siteheading } from "../components/styles/headings";
 import ShowcaseItem from "../components/Showcase";
 import { OL } from "../components/styles/showcase";
-import { CONTAINER, HEADER, FOOTER, SECTION } from "../components/styles/page";
-import Flexbox from "../components/Flexbox";
+import {
+  Container,
+  Header,
+  Footer,
+  Section,
+  Logocontainer,
+} from "../components/styles/page";
 
 const Context = createContext();
 
@@ -14,26 +19,28 @@ const Home = () => {
 
   return (
     <Context.Provider value={{ state, dispatch }}>
-      <CONTAINER>
+      <Container>
         <Head>
           <title>Absolute Orange</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-          <HEADER major="true">
-            <Heading1>
+          <Header major="true">
+            <Logocontainer>
+              <img src="images/logo.png" alt="absolute orange" />
+            </Logocontainer>
+            <Siteheading as="h1">
               <a href="/">absolute orange</a>
-            </Heading1>
-          </HEADER>
-          <SECTION>
+            </Siteheading>
+          </Header>
+          <Section>
             <OL>
               <ShowcaseItem />
             </OL>
-          </SECTION>
-          <Flexbox />
+          </Section>
         </main>
-        <FOOTER>© 2009 Absolute Orange Ltd</FOOTER>
-      </CONTAINER>
+        <Footer>© 2009 Absolute Orange Ltd</Footer>
+      </Container>
     </Context.Provider>
   );
 };

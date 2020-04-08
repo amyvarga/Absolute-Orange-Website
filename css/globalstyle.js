@@ -46,37 +46,18 @@ const GlobalStyle = createGlobalStyle`
     color: ${variables.colors.grey};
     font-size: 16px;
   }
-  strong {
-    font-family: "QuicksandBold", sans-serif;
-  }
   a {
     color: inherit;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.75em;
     color: ${variables.colors.grey};
   }
   * {
     box-sizing: border-box;
+    
   }
-  .container {
-    min-height: 
-    padding: 0 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  footer {
-    width: 100%;
-    height: 100px;
-    border-top: 1px solid #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "gothic", san-serif;
-  }
-  section {
+ 
+  img {
     width: 100%;
   }
 `;

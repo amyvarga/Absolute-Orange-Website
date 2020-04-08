@@ -6,16 +6,17 @@ const variables = {
     md: 640,
     lg: 768,
     xl: 960,
-    xxl: 1024
+    xxl: 1024,
   },
   colors: {
     orange: "#ff7c27",
     darkBlue: "#1D3557",
     medBlue: "#457B9D",
     lightBlue: "#A8DADC",
-    grey: "#535353",
-    cream: "#F1FAEE"
-  }
+    lightGrey: "#D3D3D3",
+    grey: "#838383",
+    cream: "#F1FAEE",
+  },
 };
 
 export default variables;
