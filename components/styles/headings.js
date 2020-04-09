@@ -39,5 +39,5 @@ export const Siteheading = styled.div`
 export const Showcaseheading = styled.div`
   font-family: "gothic", san-serif;
   font-size: 1rem;
-  margin: 0;
+  margin: 0 0 10px 0;
 `;
