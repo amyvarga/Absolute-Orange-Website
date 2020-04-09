@@ -10,6 +10,7 @@ import {
   Footer,
   Section,
   Logocontainer,
+  TitleLink,
 } from "../components/styles/page";
 
 const Context = createContext();
@@ -26,12 +27,12 @@ const Home = () => {
         </Head>
         <main>
           <Header major="true">
-            <Logocontainer>
-              <img src="images/logo.png" alt="absolute orange" />
-            </Logocontainer>
-            <Siteheading as="h1">
-              <a href="/">absolute orange</a>
-            </Siteheading>
+            <TitleLink href="/">
+              <Logocontainer>
+                <img src="images/logo.png" alt="absolute orange" />
+              </Logocontainer>
+              <Siteheading as="h1">absolute orange</Siteheading>
+            </TitleLink>
           </Header>
           <Section>
             <OL>

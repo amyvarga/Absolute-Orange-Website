@@ -51,6 +51,7 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-size: 0.75em;
     color: ${variables.colors.grey};
+    overflow-wrap: break-word;
   }
   * {
     box-sizing: border-box;

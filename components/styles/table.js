@@ -5,6 +5,16 @@ export const Table = styled.table`
   display: flex;
   flex-direction: column;
   font-size: 0.75em;
+  margin-right: 0;
+
+  @media (max-width: ${variables.breakpoints.xxs}px) {
+    flex-basis: calc(50% - 10px);
+    margin-right: 10px;
+  }
+  @media (max-width: ${variables.breakpoints.xxs}px) {
+    flex-basis: calc(100% - 10px);
+    margin-right: 10px;
+  }
 `;
 
 export const Theader = styled.thead`

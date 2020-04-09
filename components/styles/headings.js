@@ -2,18 +2,29 @@ import styled from "styled-components";
 import variables from "../../css/variables";
 
 export const Siteheading = styled.div`
+  width: 75%;
   color: ${variables.colors.orange};
   margin: 0;
-  line-height: 1.15;
-  @media (min-width: ${variables.breakpoints.lg}px) {
-    font-size: 2em;
+  position: absolute;
+  line-height: 1.5em;
+  @media (min-width: ${variables.breakpoints.md}px) {
+    font-size: 3em;
+    left: 10%;
+    top: 1%;
   }
-  @media (max-width: ${variables.breakpoints.lg}px) {
-    font-size: 1.5em;
+  @media (max-width: ${variables.breakpoints.md}px) {
+    font-size: 3em;
+    left: 13%;
+    top: 1%;
+  }
+  @media (max-width: ${variables.breakpoints.xs}px) {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 2.5em;
   }
   font-family: "gothic", san-serif;
-  float: left;
-  transform: translate(-20px);
   a {
     color: ${variables.colors.orange};
     text-decoration: none;
